@@ -16,7 +16,8 @@
   * @param {Object} response - HTTP response object
   */
   function onRequest( request, response ) {
-    return params.queryHander(request, response);
+    console.log('jab query hit at least', request.query);
+    return params.queryHandler(request, response);
   } // end FUNCTION onRequest()
 
 

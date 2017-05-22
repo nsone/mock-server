@@ -110,7 +110,7 @@
 			throw new TypeError( 'createServer()::invalid input argument. Must provide a function.' );
 		}
 		params.queryHandler = queryHandler;
-		return this._app.listen( params.PORT, clbk );
+		return this._app.listen(4242, clbk );
 	}; // end METHOD createServer()
 
 	

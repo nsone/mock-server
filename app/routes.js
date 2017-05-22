@@ -57,7 +57,7 @@
 	function routes( app ) {
 
 		// Valid routes:
-		app.get( '/api/query', query );
+		app.get( '/q', query );
 		app.get( '/api/aggregators', aggregators );
 		app.get( '/api/suggest', suggest );
 		app.get( '/api/config', config );

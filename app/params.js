@@ -32,7 +32,7 @@
 	// PARAMETERS //
 
 	var PORT = 4242,
-		URL = '',
+		URL = 'http://tsdb.dev.nsone.co',
 		NIDS = new Array( 10 ),
 		QUERY = '',
 		AGGREGATORS,
@@ -41,9 +41,9 @@
 		VERSION,
 		DROPCACHES;
 
-	URL += 'http://127.0.0.1:' + PORT;
+	URL += `:${PORT}`;
 
-	QUERY += URL + '/api/query?';
+	QUERY += URL + '/api/q?';
 	QUERY += 'ms=true';
 	QUERY += '&';
 	QUERY += 'arrays=true';
