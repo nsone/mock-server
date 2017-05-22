@@ -1,10 +1,10 @@
 {
-  "name": "opentsdb-mock-server",
+  "name": "nsone-opentsdb-mock-server",
   "version": "0.0.1",
-  "description": "Mock OpenTSDB server.",
+  "description": "Mock OpenTSDB server, edited for ns1.",
   "author": {
-    "name": "Athan Reines",
-    "email": "kgryte@gmail.com"
+    "name": "jordanbyrd",
+    "email": "jabyrd3@gmail.com"
   },
   "contributors": [
     {}
@@ -31,7 +31,8 @@
     "testing"
   ],
   "dependencies": {
-    "express": "^4.9.7"
+    "express": "^4.9.7",
+    "nodemon": "^1.11.0"
   },
   "devDependencies": {
     "chai": "1.x.x",
