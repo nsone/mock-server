@@ -1,6 +1,6 @@
 {
   "name": "nsone-opentsdb-mock-server",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Mock OpenTSDB server, edited for ns1.",
   "author": {
     "name": "jordanbyrd",
