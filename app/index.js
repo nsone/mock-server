@@ -105,10 +105,11 @@
 	* @param {Function} clbk - callback to invoke once server is ready to receive HTTP requests.
 	* @returns {Object} HTTP server
 	*/
-	App.prototype.createServer = function( clbk ) {
+	App.prototype.createServer = function( clbk, queryHandler ) {
 		if ( typeof clbk !== 'function' ) {
 			throw new TypeError( 'createServer()::invalid input argument. Must provide a function.' );
 		}
+		params.queryHandler = queryHandler;
 		return this._app.listen( params.PORT, clbk );
 	}; // end METHOD createServer()
 
